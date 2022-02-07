@@ -1,5 +1,51 @@
-div.top{
+.top{
+    display: flex;
+    flex-direction: column; 
+    background: #1F2937;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+.headers{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.right_headers ul, .left_headers ul{
+    display: flex;
+    gap: 10px;
+    padding-inline-end: 40px;
+}
+
+.title_and_stuff{
+    display: flex;
+}
+..title_and_stuff .left{
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+}
+.title{
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+button{
+    background: rgb(52, 52, 158);
+    color: white;
+    font-weight: bold;
+}
+.pic_placeholder{
+    background: grey;
+    color: antiquewhite;
+    padding: 50px;
+}
+.left .words{
+    color: white;
 }
