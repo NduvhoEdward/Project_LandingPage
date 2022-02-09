@@ -136,6 +136,7 @@ img{
 }
 .left .call{
     font-weight: bold;
+    font-size: larger;
     color: whitesmoke;
 }
 .left .kipkip{
@@ -145,3 +146,11 @@ img{
     border-color: whitesmoke;
 }
 
+.footer{
+    background-color: #1F2937;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
