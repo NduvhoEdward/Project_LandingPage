@@ -1,3 +1,3 @@
-# Project_LandingPage
+# Project Landing Page
 
-A simple website landing/home page
+A simple website landing/home page. 
